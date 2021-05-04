@@ -32,6 +32,7 @@ public class Selection_Sort {
 
     }
 
+    // selection sort algo method
     static void selection__Sort(int arr[], int n) {
         int s;
         for(int i=0;i<arr.length;i++){
@@ -47,6 +48,7 @@ public class Selection_Sort {
 
     }
 
+    //method to perform display array
     static void display_Array(int a[]) {
         System.out.print("Array After Sorting: ");
         for (int i = 0; i < a.length; i++) {
